@@ -5,3 +5,21 @@ __pycache__/
 data/**/groundtruth/
 data/_cache/
 /*.zip
+
+# Local tools and credentials
+/tools/
+.env
+.env.*
+!.env.example
+/outputs/segmentation/
+
+# Machine-local setup guides and tool checks
+/docs/CVAT_LOCAL_SETUP.md
+/docs/CVAT_OFFLINE_MODELS.md
+/docs/SAM2_CVAT.md
+/docs/SAM3_CVAT.md
+/docs/PIPELINE_REDESIGN.md
+/docs/PYTHON_MASK_PIPELINE.md
+/tests/test_sam3_interactor.py
+/tests/test_segmentation_pipeline.py
+/tests/test_cvat_live_pipeline.py
